@@ -17,8 +17,7 @@
 
 const menubtn = document.getElementById("menubtn");
 const menu = document.getElementById("messenger-links");
-
- 
+console.log(menubtn); 
 
 menubtn.onclick = function() {
       if ( menu.classList.contains('show') ) {
